@@ -199,15 +199,15 @@
 					var i;
 					for(i=0; i<data.length; i++){
 						html +='<tr>'+
-									'<td>'+data[i].id+'</td>'+
-									'<td>'+data[i].employee_name+'</td>'+
-									'<td>'+data[i].address+'</td>'+
-									'<td>'+data[i].created_at+'</td>'+
-									'<td>'+
-										'<a href="javascript:;" class="btn btn-info item-edit" data="'+data[i].id+'">Edit</a>'+
-										'<a href="javascript:;" class="btn btn-danger item-delete" data="'+data[i].id+'">Delete</a>'+
-									'</td>'+
-							    '</tr>';
+							'<td>'+data[i].id+'</td>'+
+							'<td>'+data[i].employee_name+'</td>'+
+							'<td>'+data[i].address+'</td>'+
+							'<td>'+data[i].created_at+'</td>'+
+							'<td>'+
+								'<a href="javascript:;" class="btn btn-info item-edit" data="'+data[i].id+'">Edit</a>'+
+								'<a href="javascript:;" class="btn btn-danger item-delete" data="'+data[i].id+'">Delete</a>'+
+							'</td>'+
+						'</tr>';
 					}
 					$('#showdata').html(html);
 				},
